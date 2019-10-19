@@ -1,0 +1,90 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration file="/home/hp/example1.prj" location="/home/hp" name="example1" target="target.mlapps" target-name="Package App">
+    <param.appname>example1</param.appname>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>/home/hp</param.output>
+    <param.guid>eafa0687-2cb3-4ea6-8948-c1330f1ed432</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/example1.m</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}/Documents/MATLAB/SupportPackages/R2017b/toolbox/matlab/webcam/supportpackages/+matlab/+webcam/+internal/PreviewController.p</file>
+      <file>${PROJECT_ROOT}/Documents/MATLAB/SupportPackages/R2017b/toolbox/matlab/webcam/supportpackages/+matlab/+webcam/+internal/Utility.p</file>
+      <file>${PROJECT_ROOT}/Documents/MATLAB/SupportPackages/R2017b/toolbox/matlab/webcam/supportpackages/+matlab/+webcam/+internal/WebcamController.p</file>
+      <file>${PROJECT_ROOT}/Documents/MATLAB/SupportPackages/R2017b/toolbox/matlab/webcam/supportpackages/@webcam/webcam.m</file>
+      <file>${PROJECT_ROOT}/example1.fig</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/home" name="hp" optional="false">/home/hp</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/home/hp/MATLAB2</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>false</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>true</linux>
+      <solaris>false</solaris>
+      <osver>4.4.0-127-generic</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>glnxa64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
